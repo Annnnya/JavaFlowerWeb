@@ -19,4 +19,6 @@ public class Flower {
     public String getColor() {
         return color.toString();
     }
+
+    public String detDescription() {return "Flower "+this.flowerType+" price "+this.price;}
 }
