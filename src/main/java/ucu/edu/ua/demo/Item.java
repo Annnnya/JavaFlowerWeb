@@ -9,6 +9,9 @@ import ucu.edu.ua.demo.flower.Flower;
 public class Item {
     private double price;
     private String characteristics;
+    public Item(Flower flower){
+        this.fromFlower(flower);
+    }
 
     public void fromFlower(Flower flower) {
         this.price = flower.getPrice();
